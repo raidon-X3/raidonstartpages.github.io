@@ -1,5 +1,8 @@
 # Startpage Emporium
-A curated list of startpages for your browser.<br />Est. Jan 2016<br /><br />
+A curated list of startpages for your browser.<br />Est. Jan 2016<br />
+# hey quick note!
+this isnt the actual startpages repo. this is my fork that im using for personal use and is forked so that i can edit some startpages.
+you can use it and are welcome to use it but i coded it with only what i want in mind.<br />
 ### Features
 Fully 'responsive' and mobile friendly.<br />Auto loads more startpages as you scroll down.<br />Source files avaliable for each page.<br />Live Search feature with dynamic results.
 
