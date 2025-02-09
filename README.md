@@ -2,8 +2,7 @@
 A curated list of startpages for your browser.<br />Est. Jan 2016<br /><br />
 # hey quick note!
 this isnt the actual startpages repo. this is my fork that im using for personal use and is forked so that i can edit some startpages. <br />
-you can use it and are welcome to use it but i coded it with only what i want in mind.<br />
-oh and also it does not work without downloading the whole repo and running it locally because i dont actually really know how to code in js.<br />
+you can use it and are welcome to use it but i coded it with only what i want in mind, which is pretty much just one, edited, startpage<br />
 oh and also also i deleted everything i wont use for storage lol (is it obvious this is meant for me and me only?)<br /><br />
 ### Features
 Fully 'responsive' and mobile friendly.<br />Auto loads more startpages as you scroll down.<br />Source files avaliable for each page.<br />Live Search feature with dynamic results.
