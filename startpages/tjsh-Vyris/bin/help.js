@@ -7,7 +7,7 @@ function help(args)
 {
 	var helpDesc = ["Prints a description of every command"];
 	
-	if (args[0] == "help")
+	if (args[0] == "--help" || args[0] == "-h")
 	{
 		print(printHelp(helpDesc));
 	}
@@ -20,7 +20,7 @@ function help(args)
 			var customTab = Array(((tabLength*5)+1) - COMMAND_LIST[i].length).join(" ");
 			print(tab + COMMAND_LIST[i] + customTab  + HELP_LIST[i]);
 		}
-		print("For more information about these tools, you can try typing command --help");
+		print("For more information about these tools, you can try typing command --help or -h");
 		print("");
 	}
 

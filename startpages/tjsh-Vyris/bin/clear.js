@@ -7,7 +7,7 @@ function clear(args)
 {
     var helpDesc = ["This function clears the current terminal and repopulates it."];
 	
-	if (args[0] == "help")
+	if (args[0] == "--help" || args[0] == "-h")
 	{
 		print(printHelp(helpDesc));
 	}
