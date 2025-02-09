@@ -5,7 +5,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #333;
+    background: #000000;
     padding-left: 2ex;
     top: -2ex;
 }
@@ -15,7 +15,7 @@ p {
 #terminal {
     overflow-y: auto;
     overflow-x: hidden;
-    color: #BBB;
+    color: #FFFFFF;
     top: -2ex;
 }
 #prompt, #input, .output, .prompt_Old, .input_Old, #caret, .ppost, #post{
@@ -30,7 +30,7 @@ p {
     display: none;
 }
 .output {
-    color: #777;
+    color: #FFFFFF;
 }
 #post {
     position: relative;
@@ -51,13 +51,13 @@ p {
 }
 #input {
     color: transparent;
-    text-shadow: 0px 0px 0px #BBB;
+    text-shadow: 0px 0px 0px #DDDDDD;
 }
 
 .rssFeedList{
-    width:450px; 
+    width:450px;
     list-style:none outside none;
-    background-color: transparent; 
+    background-color: transparent;
     border:0px solid #D3CAD7; 
     margin-left: 3ex;
 }
@@ -83,7 +83,7 @@ p {
 }
 
 .itemTitle a{
-    color:#BBB !important; 
+    color:#BBB !important;
     text-decoration: none 
 }
 

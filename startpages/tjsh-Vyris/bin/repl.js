@@ -99,10 +99,10 @@ function evaluate(input, args) // Executes different code depending on input and
 		redir(input, args);
 	}
 	
-	else if (input == "rss")
-	{
-		rss(input, args);
-	}
+	//else if (input == "hyfetch")
+	//{
+	//	hyfetch(args);
+	//}
 
 }
 

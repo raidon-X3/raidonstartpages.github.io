@@ -40,8 +40,8 @@
 
         var username = "[raidon";
         var host = "meow ~]$";
-        //var cd = "/jsh";
-        var promptString = "<p id = 'prompt' >" + username + "@" + host + "[" + cd + "]: </p>";
+        //var cd = "";
+        var promptString = "<p id = 'prompt' >" + username + "@" + host + " </p>";
         var inputString = "<pre id  = 'input' contentEditable = 'true'></pre>";
         var inputBlock = "<pre id = 'caret'>&#9608;</pre>";
         var postInput = "<div id = 'post'></div>"; 
@@ -59,7 +59,7 @@
 
 
         $(document).ready(function() {	
-			//print("The font 'Sazayama Gothic' is highly recommended, though attempts have been made to not be overly dependent on this.");
+			print("");
 			//print("<p><i>Version 3; test release. Please email suggestions to 6c556d22b7@outlook.com~</i></p>");
 			
 			$("#terminal").append("<br>" + promptString + inputString + inputBlock + postInput);
@@ -71,18 +71,19 @@
 		// --COMMAND n HELP LIST -- //
 		
 		
-		var COMMAND_LIST = ["echo", "clear", "help", "google", 
+		var COMMAND_LIST = ["echo", "clear", "help", "google",
 							"youtube", "site", "about",
-							"wikipedia",
+							"wikipedia"
 						   ];
         
         var HELP_LIST = ["The console prints out the arguments to this function", 
 						 "Clears and redraws the terminal",
-                         "Displays a list of recognised functions", 
+                         "Displays a list of recognised functions",
 						 "Performs a Google Search containing arguments",
 						 "Performs a YouTube search with arguments",
                          "Redirects to argument.com, or argument.argument2 if specified", 
                          "Displays generic about information"
+                         ];
 						 
 		var historyList = [0,];
 		
